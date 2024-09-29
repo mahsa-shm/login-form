@@ -1,0 +1,57 @@
+:root {
+  --Wood-Bark: #1f1717;
+  --Cabaret: #f0465a;
+  --Mandys-Pink: #f4bf96;
+  --Rose-White: #fcf5ed;
+
+  --Nero: #191919;
+  --Falu-Red: #750e21;
+  --Turbo: #f8c420;
+}
+body {
+  background-color: var(--Falu-Red);
+}
+.form {
+  background-color: var(--Nero);
+  position: relative;
+  margin: auto;
+  width: 350px;
+  height: 400px;
+  top: 100px;
+  text-align: center;
+  display: grid;
+  border-radius: 10px;
+}
+h1 {
+  margin-top: 70px;
+  color: var(--Mandys-Pink);
+}
+.form input {
+  border: 3px solid var(--Mandys-Pink);
+  background-color: transparent;
+  border-radius: 30px;
+  text-align: center;
+  width: 200px;
+  height: 30px;
+  margin: auto;
+  transition: 0.2s ease-in-out;
+  color: var(--Mandys-Pink);
+}
+.form input:focus {
+  width: 250px;
+  border: 3px solid var(--Turbo);
+  outline: none;
+}
+.button {
+  margin: auto;
+  width: 100px;
+  height: 40px;
+  color: var(--Rose-White);
+  background-color: transparent;
+  border: 3px solid var(--Falu-Red);
+  border-radius: 30px;
+}
+.button:hover {
+  color: var(--Nero);
+  background-color: var(--Falu-Red);
+}
